@@ -33,7 +33,7 @@ left: 0%;
 right: 0%;
 top: 0%;
 bottom: 0%;
-margin-top: 40px;
+margin-top: 50px;
 margin-left:90px;
 
 font-family: 'Poppins';
@@ -60,7 +60,7 @@ right: 0%;
 top: 0%;
 bottom: 0%;
 margin-left:90px;
-margin-top: 60px;
+margin-top: 70px;
 
 font-family: 'Poppins';
 font-style: normal;
@@ -85,8 +85,11 @@ left: 0%;
 right: 0%;
 top: 0%;
 bottom: 0%;
-margin-left:20px;
-margin-top:100px;
+margin-left:-5px;
+margin-top:120px;
+list-style-type: none;
+word-spacing: -2px;
+line-height: 80%;
 
 font-family: 'Poppins';
 font-style: normal;
@@ -105,8 +108,8 @@ letter-spacing: 0.01em;
 
 
 
-margin-left:20px;
-margin-top:300px;
+margin-left:-5px;
+margin-top:400px;
 
 font-family: 'Poppins';
 font-style: normal;
@@ -118,5 +121,10 @@ line-height: 20px;
 letter-spacing: 0.01em;
 
 /* Accent blue */
+
+}
+
+a{
+    text-decoration: none;
 
 }
