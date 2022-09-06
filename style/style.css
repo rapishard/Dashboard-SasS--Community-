@@ -112,6 +112,26 @@ a {
   text-decoration: none;
 }
 
+.status {
+  /* Status */
+  position: absolute;
+  left: 0%;
+  right: 0%;
+  top: 0%;
+  bottom: 0%;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 20px;
+  /* identical to box height */
+  text-align: center;
+  letter-spacing: 0.01em;
+  /* dark_blue */
+  color: #334D6E;
+  opacity: 0.5;
+}
+
 /* When the screen is less than 600px wide, stack the links and the search field vertically instead of horizontally */
 @media screen and (max-width: 600px) {
   .topnav a, .topnav input[type=text] {
@@ -290,6 +310,7 @@ a {
   box-shadow: 0px 6px 18px rgba(0, 0, 0, 0.06);
   border-radius: 4px;
   margin-left: 680px;
+  margin-top: 80px;
 }
 
 .page {
@@ -364,4 +385,19 @@ body {
   letter-spacing: 0.01em;
   color: #192A3E;
   margin: 75px 0px 0px 30px;
+}
+
+.recD2 {
+  position: absolute;
+  width: 445px;
+  height: 344px;
+  left: 0px;
+  top: 0px;
+  /* white */
+  background: #FFFFFF;
+  /* box shadow */
+  box-shadow: 0px 6px 18px rgba(0, 0, 0, 0.06);
+  border-radius: 4px;
+  margin-left: 0px;
+  margin-top: 370px;
 }/*# sourceMappingURL=style.css.map */
