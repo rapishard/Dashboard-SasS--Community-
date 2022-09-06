@@ -17,7 +17,6 @@
 
 }
 
-
 .orange{
     position: absolute;
     left: 55.83%;
@@ -35,4 +34,14 @@
     bottom: 12.5%;
     background: #C2CFE0;
 
+}
+
+.bluCircle{
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    left: calc(50% - 24px/2 - 371.5px);
+    top: 170px;
+    /* Accent blue */
+    background: #109CF1;
 }

@@ -298,6 +298,15 @@ a {
   opacity: 0.5;
 }
 
+.span {
+  color: #109CF1;
+}
+
+.spanWhite {
+  color: #ffffff;
+  top: 38%;
+}
+
 /* When the screen is less than 600px wide, stack the links and the search field vertically instead of horizontally */
 @media screen and (max-width: 600px) {
   .topnav a, .topnav input[type=text] {
@@ -633,4 +642,14 @@ body {
   top: 65.5%;
   bottom: 12.5%;
   background: #C2CFE0;
+}
+
+.bluCircle {
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  left: calc(50% - 12px - 371.5px);
+  top: 170px;
+  /* Accent blue */
+  background: #109CF1;
 }/*# sourceMappingURL=style.css.map */
