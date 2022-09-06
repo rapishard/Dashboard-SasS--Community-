@@ -455,6 +455,31 @@ a {
   margin-left: 30px;
 }
 
+.chat1 {
+  position: absolute;
+  left: 0px;
+  right: 0px;
+  top: 0px;
+  bottom: 0px;
+  background: #FFFFFF;
+  box-shadow: 0px 6px 18px rgba(0, 0, 0, 0.06);
+  border-radius: 4px;
+}
+
+.chat2 {
+  margin-left: 370px;
+  position: absolute;
+  height: 718px;
+  left: 0px;
+  right: 0px;
+  top: 0px;
+  /* white */
+  background: #FFFFFF;
+  /* box shadow */
+  box-shadow: 0px 6px 18px rgba(0, 0, 0, 0.06);
+  border-radius: 4px;
+}
+
 .task {
   /* 8 task completed out of 10 */
   position: absolute;
