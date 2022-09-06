@@ -242,6 +242,62 @@ a {
   color: #707683;
 }
 
+.show {
+  /* Show more */
+  position: absolute;
+  left: 0px;
+  right: 0px;
+  top: 470px;
+  bottom: 0px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 20px;
+  /* identical to box height */
+  text-align: center;
+  letter-spacing: 0.01em;
+  /* Accent blue */
+  color: #109CF1;
+}
+
+.numberDay {
+  position: absolute;
+  left: 0%;
+  right: 0%;
+  top: 50%;
+  bottom: 0%;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 18px;
+  /* identical to box height */
+  text-align: center;
+  letter-spacing: 0.01em;
+  /* profile_gray */
+  color: #4C5862;
+}
+
+.nameDay {
+  position: absolute;
+  left: 0%;
+  right: 0%;
+  top: 10%;
+  bottom: 0%;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 20px;
+  /* identical to box height */
+  text-align: center;
+  letter-spacing: 0.01em;
+  /* dark_blue */
+  color: #334D6E;
+  opacity: 0.5;
+}
+
 /* When the screen is less than 600px wide, stack the links and the search field vertically instead of horizontally */
 @media screen and (max-width: 600px) {
   .topnav a, .topnav input[type=text] {
@@ -507,10 +563,10 @@ body {
 
 .rec1Card1 {
   position: absolute;
-  height: 126px;
+  height: 116px;
   left: 24px;
   right: 24px;
-  top: 213px;
+  top: 153px;
   margin-top: 60px;
   /* white */
   background: #FFFFFF;
@@ -520,7 +576,17 @@ body {
 }
 
 .card {
-  margin-top: 20px;
+  margin-top: 10px;
+}
+
+.cardDay {
+  margin-top: 130px;
+  border-width: 0px;
+}
+
+.card-body {
+  flex: 1 1 auto;
+  padding: 2rem 1rem;
 }
 
 .button {
