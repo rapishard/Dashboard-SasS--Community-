@@ -132,6 +132,116 @@ a {
   opacity: 0.5;
 }
 
+.cardText {
+  /* Send benefit review by Sunday */
+  position: absolute;
+  left: 0%;
+  right: 0%;
+  top: 5%;
+  bottom: 0%;
+  margin: 10px 0px 0px 20px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 22px;
+  /* identical to box height */
+  letter-spacing: 0.01em;
+  /* table_black */
+  color: #323C47;
+}
+
+.dueDate {
+  /* Due date: */
+  position: absolute;
+  width: 64px;
+  height: 20px;
+  left: 20px;
+  top: 40px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 20px;
+  /* identical to box height */
+  letter-spacing: 0.01em;
+  /* dark_gray text */
+  color: #4C5862;
+  opacity: 0.5;
+}
+
+.dateCard {
+  /* December 23, 2018 */
+  position: absolute;
+  width: 222px;
+  height: 20px;
+  left: 80px;
+  top: 40px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 20px;
+  /* identical to box height */
+  letter-spacing: 0.01em;
+  /* dark_gray text */
+  color: #4C5862;
+}
+
+.stw {
+  /* Show: This week */
+  position: absolute;
+  width: 97px;
+  height: 18px;
+  right: 37px;
+  top: 17px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 18px;
+  /* identical to box height */
+  letter-spacing: 0.01em;
+  /* filter_gray */
+  color: #6A707E;
+  margin-left: 288px;
+}
+
+.greyCard {
+  position: absolute;
+  height: 18px;
+  right: 37px;
+  top: 17px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 18px;
+  /* identical to box height */
+  letter-spacing: 0.01em;
+  /* filter_gray */
+  color: #6A707E;
+  margin-left: 388px;
+}
+
+.sign {
+  /* George Fields */
+  position: absolute;
+  left: 12%;
+  right: 0%;
+  top: 70%;
+  bottom: 0%;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 20px;
+  /* identical to box height */
+  letter-spacing: 0.01em;
+  /* table_gray */
+  color: #707683;
+}
+
 /* When the screen is less than 600px wide, stack the links and the search field vertically instead of horizontally */
 @media screen and (max-width: 600px) {
   .topnav a, .topnav input[type=text] {
@@ -226,13 +336,25 @@ a {
 }
 
 .circolare {
-  height: 47px;
   width: 62px;
   left: -9px;
   top: 0px;
   left: 9.57%;
   right: -15.22%;
   top: 5%;
+  bottom: -2.17%;
+  border-radius: 90%;
+  margin-top: 6px;
+  position: absolute;
+}
+
+.circleCard1 {
+  width: 32px;
+  left: -9px;
+  top: 0px;
+  left: 3.57%;
+  right: -15.22%;
+  top: 55%;
   bottom: -2.17%;
   border-radius: 90%;
   margin-top: 6px;
@@ -350,25 +472,6 @@ body {
   border: 1px solid var(--color-stroke);
 }
 
-.stw {
-  /* Show: This week */
-  position: absolute;
-  width: 97px;
-  height: 18px;
-  right: 37px;
-  top: 17px;
-  font-family: "Poppins";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 12px;
-  line-height: 18px;
-  /* identical to box height */
-  letter-spacing: 0.01em;
-  /* filter_gray */
-  color: #6A707E;
-  margin-left: 288px;
-}
-
 .date {
   /* 23 December, Sunday */
   position: absolute;
@@ -400,4 +503,68 @@ body {
   border-radius: 4px;
   margin-left: 0px;
   margin-top: 370px;
+}
+
+.rec1Card1 {
+  position: absolute;
+  height: 126px;
+  left: 24px;
+  right: 24px;
+  top: 213px;
+  margin-top: 60px;
+  /* white */
+  background: #FFFFFF;
+  /* card shadow */
+  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.08);
+  border-radius: 4px;
+}
+
+.card {
+  margin-top: 20px;
+}
+
+.button {
+  margin: 50px 0px 0px 400px;
+  padding: 0px 10px;
+}
+
+.buttonEnded {
+  margin: 50px 0px 0px 400px;
+  padding: 0px 25px;
+}
+
+.delete {
+  position: absolute;
+  left: 70.83%;
+  right: 20.83%;
+  top: 65.5%;
+  bottom: 12.5%;
+  background: #C2CFE0;
+}
+
+.write {
+  position: absolute;
+  left: 65.83%;
+  right: 12.49%;
+  top: 65.5%;
+  bottom: 12.5%;
+  background: #C2CFE0;
+}
+
+.orange {
+  position: absolute;
+  left: 55.83%;
+  right: 12.49%;
+  top: 65.5%;
+  bottom: 12.5%;
+  background: #C2CFE0;
+}
+
+.green {
+  position: absolute;
+  left: 60.83%;
+  right: 12.49%;
+  top: 65.5%;
+  bottom: 12.5%;
+  background: #C2CFE0;
 }/*# sourceMappingURL=style.css.map */

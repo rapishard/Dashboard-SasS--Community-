@@ -155,3 +155,146 @@ color: #334D6E;
 
 opacity: 0.5;
 }
+
+.cardText{
+    /* Send benefit review by Sunday */
+
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 5%;
+bottom: 0%;
+margin: 10px 0px 0px 20px;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 15px;
+line-height: 22px;
+/* identical to box height */
+
+letter-spacing: 0.01em;
+
+/* table_black */
+
+color: #323C47;
+}
+
+.dueDate{
+    /* Due date: */
+
+
+position: absolute;
+width: 64px;
+height: 20px;
+left: 20px;
+top: 40px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 13px;
+line-height: 20px;
+/* identical to box height */
+
+letter-spacing: 0.01em;
+
+/* dark_gray text */
+
+color: #4C5862;
+
+opacity: 0.5;
+}
+
+.dateCard{
+    /* December 23, 2018 */
+
+
+position: absolute;
+width: 222px;
+height: 20px;
+left: 80px;
+top: 40px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 13px;
+line-height: 20px;
+/* identical to box height */
+
+letter-spacing: 0.01em;
+
+/* dark_gray text */
+
+color: #4C5862;
+}
+
+.stw{
+    /* Show: This week */
+
+
+position: absolute;
+width: 97px;
+height: 18px;
+right: 37px;
+top: 17px;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 18px;
+/* identical to box height */
+
+letter-spacing: 0.01em;
+
+/* filter_gray */
+
+color: #6A707E;
+margin-left: 288px;}
+
+.greyCard{
+
+position: absolute;
+height: 18px;
+right: 37px;
+top: 17px;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 18px;
+/* identical to box height */
+
+letter-spacing: 0.01em;
+
+/* filter_gray */
+
+color: #6A707E;
+    margin-left: 388px;
+}
+
+.sign{
+    /* George Fields */
+
+
+position: absolute;
+left: 12%;
+right: 0%;
+top: 70%;
+bottom: 0%;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 13px;
+line-height: 20px;
+/* identical to box height */
+
+letter-spacing: 0.01em;
+
+/* table_gray */
+
+color: #707683;
+}
+
