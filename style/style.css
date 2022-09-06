@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:weight@100;200;300;400;500;600;700;800&display=swap");
 .sidebar {
   /* side_nav_bg */
   position: absolute;
@@ -161,6 +162,49 @@ a {
   border-radius: 4px;
 }
 
+.height {
+  height: 50vh;
+}
+
+.search {
+  position: relative;
+  box-shadow: 0 0 40px rgba(51, 51, 51, 0.1);
+}
+
+.search input {
+  height: 60px;
+  width: 1184px;
+  left: 0px;
+  top: 0px;
+  border-radius: 0px;
+  text-indent: 25px;
+  border: 0px solid #d6d4d4;
+}
+
+.search input:focus {
+  box-shadow: none;
+  border: 2px solid blue;
+}
+
+.search .fa-search {
+  position: absolute;
+  top: 10px;
+  left: 16px;
+}
+
+.search button {
+  position: absolute;
+  top: 10px;
+  right: 5px;
+  height: 20px;
+  width: 10px;
+  margin-right: 10px;
+}
+
+.form-control {
+  border: 0px solid #d6d4d4;
+}
+
 .circolare {
   height: 47px;
   width: 62px;
@@ -173,4 +217,151 @@ a {
   border-radius: 90%;
   margin-top: 6px;
   position: absolute;
+}
+
+.bell {
+  box-sizing: border-box;
+  position: relative;
+  left: 16.67%;
+  right: 16.67%;
+  top: 10.42%;
+  bottom: 8.33%;
+  margin-left: 950px;
+  /* white */
+  background: #FFFFFF;
+  /* icon_gray */
+  border: 1px solid #C2CFE0;
+}
+
+.rec1 {
+  position: absolute;
+  height: 718px;
+  left: 0px;
+  right: 0px;
+  top: 0px;
+  /* white */
+  background: #FFFFFF;
+  /* box shadow */
+  box-shadow: 0px 6px 18px rgba(0, 0, 0, 0.06);
+  border-radius: 4px;
+  margin-top: 80px;
+  margin-left: 30px;
+}
+
+.task {
+  /* 8 task completed out of 10 */
+  position: absolute;
+  left: 0%;
+  right: 0%;
+  top: 0%;
+  bottom: 0%;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 20px;
+  /* identical to box height */
+  letter-spacing: 0.01em;
+  /* dark_blue */
+  color: #334D6E;
+  margin: 15px 0px 0px 30px;
+}
+
+.progress {
+  position: absolute;
+  height: 4px;
+  left: 24px;
+  right: 24px;
+  top: 52px;
+  /* divider */
+  background: #EBEFF2;
+  border-radius: 3px;
+}
+
+.recD1 {
+  position: absolute;
+  width: 445px;
+  height: 344px;
+  left: 0px;
+  top: 0px;
+  /* white */
+  background: #FFFFFF;
+  /* box shadow */
+  box-shadow: 0px 6px 18px rgba(0, 0, 0, 0.06);
+  border-radius: 4px;
+  margin-left: 680px;
+}
+
+.page {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 50px;
+}
+
+.page > * {
+  padding: 1rem;
+}
+
+.sidebar {
+  background: var(--color-primary-x-light);
+  outline: 1px solid var(--color-primary);
+  flex-grow: 1;
+  flex-basis: 12rem;
+}
+
+.content {
+  flex-basis: 0;
+  flex-grow: 2;
+  min-width: 70%;
+}
+
+/* Extrinsic sizes on this page simulate the small viewport for you */
+body {
+  max-width: 50rem;
+  min-height: unset;
+  padding: 1rem;
+  background: var(--color-off-white);
+  margin: 1rem auto;
+}
+
+.page {
+  background: white;
+  border: 1px solid var(--color-stroke);
+}
+
+.stw {
+  /* Show: This week */
+  position: absolute;
+  width: 97px;
+  height: 18px;
+  right: 37px;
+  top: 17px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 18px;
+  /* identical to box height */
+  letter-spacing: 0.01em;
+  /* filter_gray */
+  color: #6A707E;
+  margin-left: 288px;
+}
+
+.date {
+  /* 23 December, Sunday */
+  position: absolute;
+  left: 0%;
+  right: 0%;
+  top: 0%;
+  bottom: -4.55%;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 22px;
+  /* identical to box height */
+  letter-spacing: 0.01em;
+  color: #192A3E;
+  margin: 75px 0px 0px 30px;
 }/*# sourceMappingURL=style.css.map */
