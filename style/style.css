@@ -626,11 +626,13 @@ body {
 .button {
   margin: 50px 0px 0px 400px;
   padding: 0px 10px;
+  background-color: #2ED47A;
 }
 
 .buttonEnded {
   margin: 50px 0px 0px 400px;
   padding: 0px 25px;
+  background-color: #F7685B;
 }
 
 .delete {
