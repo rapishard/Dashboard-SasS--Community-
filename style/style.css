@@ -282,6 +282,24 @@ a {
   color: #323C47;
 }
 
+.name {
+  position: absolute;
+  left: 6%;
+  right: 0%;
+  top: 26%;
+  bottom: 0%;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 20px;
+  /* identical to box height */
+  letter-spacing: 0.01em;
+  /* dark_blue */
+  color: #334D6E;
+  opacity: 0.5;
+}
+
 .email {
   /* lindsey.stroud@gmail.com */
   position: absolute;
@@ -381,6 +399,23 @@ a {
 .spanWhite {
   color: #ffffff;
   top: 38%;
+}
+
+.selected {
+  position: absolute;
+  left: 6%;
+  right: 0%;
+  top: 27%;
+  bottom: 0%;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 20px;
+  /* identical to box height */
+  letter-spacing: 0.01em;
+  /* dark_blue */
+  color: #334D6E;
 }
 
 /* When the screen is less than 600px wide, stack the links and the search field vertically instead of horizontally */
@@ -723,7 +758,7 @@ body {
   height: 36px;
   left: 4px;
   right: 24px;
-  top: 145px;
+  top: 90px;
   margin-top: -33px;
   /* white */
   background: #FFFFFF;

@@ -344,6 +344,29 @@ color: #707683;
 color: #323C47;
 }
 
+.name{
+    position: absolute;
+    left: 6%;
+    right: 0%;
+    top: 26%;
+bottom: 0%;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 13px;
+line-height: 20px;
+/* identical to box height */
+
+letter-spacing: 0.01em;
+
+/* dark_blue */
+
+color: #334D6E;
+
+opacity: 0.5;
+}
+
 .email{
     /* lindsey.stroud@gmail.com */
 
@@ -468,4 +491,25 @@ opacity: 0.5;
     color: #ffffff;
     top: 38%;
 
+ }
+
+ .selected{
+    position: absolute;
+    left: 6%;
+    right: 0%;
+    top: 27%;
+bottom: 0%;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 13px;
+line-height: 20px;
+/* identical to box height */
+
+letter-spacing: 0.01em;
+
+/* dark_blue */
+
+color: #334D6E;
  }
