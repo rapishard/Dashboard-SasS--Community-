@@ -1,7 +1,7 @@
 .button{
-margin: 50px 0px 0px 400px;
-padding: 0px 10px;
-background-color: #2ED47A;
+    margin: 50px 0px 0px 400px;
+    padding: 0px 10px;
+    background-color: #2ED47A;
 }
 
 .buttonEnded{
@@ -11,5 +11,19 @@ background-color: #2ED47A;
 
     }
 
+.buttonContact{
+    margin: 20px 0px 0px 1000px;
+    padding: 0px 10px;
+    background: #109CF1;
+/* accent button shadow */
 
+box-shadow: 0px 4px 10px rgba(16, 156, 241, 0.24);
+border-radius: 4px;
+}
 
+.buttonEnded{
+    margin: 50px 0px 0px 400px;
+    padding: 0px 25px;
+    background-color: #F7685B;
+
+    }
