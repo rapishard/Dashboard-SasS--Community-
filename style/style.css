@@ -803,6 +803,16 @@ body {
   background: #C2CFE0;
 }
 
+.deleteContact {
+  position: absolute;
+  left: 11.83%;
+  right: 20.83%;
+  top: 37.5%;
+  bottom: 12.5%;
+  /* icon_gray */
+  background: #C2CFE0;
+}
+
 .write {
   position: absolute;
   left: 65.83%;
