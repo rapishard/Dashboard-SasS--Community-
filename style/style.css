@@ -321,6 +321,12 @@ a {
   color: #707683;
 }
 
+.emailAvatar {
+  left: -65%;
+  right: 0%;
+  top: 5%;
+}
+
 .social {
   left: 26%;
 }
