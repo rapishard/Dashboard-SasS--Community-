@@ -45,13 +45,16 @@ background: #C2CFE0;
 }
 
 .bluCircle{
-    position: absolute;
+    /* position: absolute;
     width: 24px;
     height: 24px;
     left: calc(50% - 24px/2 - 371.5px);
     top: 170px;
-    /* Accent blue */
-    background: #109CF1;
+    background: #109CF1; */
+    width: 25px;
+    height: 25px;
+    margin-left: 0px;
+    max-width: 200%;
 }
 
 .ellipseBlue{
