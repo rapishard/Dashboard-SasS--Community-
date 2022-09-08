@@ -527,9 +527,9 @@ color: #334D6E;
 
 
 position: absolute;
-left: -300%;
+left: -335%;
     right: 0%;
-    top: -377%;
+    top: -418%;
     bottom: 0%;
     font-family: "Poppins";
     font-style: normal;
@@ -542,4 +542,45 @@ text-align: center;
 
 color: #2ED47A;
 
+ }
+
+ .active{
+    position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 10px;
+line-height: 15px;
+letter-spacing: 0.01em;
+
+/* black */
+
+color: #192A3E;
+ }
+
+ .chartLine{
+    /* Closed deals */
+
+
+    position: absolute;
+    left: 8%;
+        right: 0%;
+        top: -11%;
+    bottom: 0%;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 15px;
+    letter-spacing: 0.01em;
+
+/* black */
+
+color: #192A3E;
  }

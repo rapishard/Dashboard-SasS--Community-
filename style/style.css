@@ -625,9 +625,9 @@ a {
 .pie {
   /* 60% */
   position: absolute;
-  left: -300%;
+  left: -335%;
   right: 0%;
-  top: -377%;
+  top: -418%;
   bottom: 0%;
   font-family: "Poppins";
   font-style: normal;
@@ -637,6 +637,39 @@ a {
   text-align: center;
   /* green */
   color: #2ED47A;
+}
+
+.active {
+  position: absolute;
+  left: 0%;
+  right: 0%;
+  top: 0%;
+  bottom: 0%;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 15px;
+  letter-spacing: 0.01em;
+  /* black */
+  color: #192A3E;
+}
+
+.chartLine {
+  /* Closed deals */
+  position: absolute;
+  left: 8%;
+  right: 0%;
+  top: -11%;
+  bottom: 0%;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 15px;
+  letter-spacing: 0.01em;
+  /* black */
+  color: #192A3E;
 }
 
 /* When the screen is less than 600px wide, stack the links and the search field vertically instead of horizontally */
@@ -1021,7 +1054,6 @@ body {
   right: 20.83%;
   top: 65.5%;
   bottom: 12.5%;
-  background: #C2CFE0;
 }
 
 .deleteContact {
@@ -1040,7 +1072,6 @@ body {
   right: 12.49%;
   top: 65.5%;
   bottom: 12.5%;
-  background: #C2CFE0;
 }
 
 .orange {
@@ -1049,7 +1080,6 @@ body {
   right: 12.49%;
   top: 65.5%;
   bottom: 12.5%;
-  background: #C2CFE0;
 }
 
 .green {
@@ -1058,7 +1088,6 @@ body {
   right: 12.49%;
   top: 65.5%;
   bottom: 12.5%;
-  background: #C2CFE0;
 }
 
 .bluCircle {
@@ -1094,6 +1123,15 @@ body {
   /* green */
 }
 
+.ellipseLine {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  left: 21px;
+  top: -27px;
+  /* Accent blue */
+}
+
 .line {
   width: 430px;
   margin-top: 40px;
@@ -1109,9 +1147,10 @@ body {
 .pie-chart {
   background: radial-gradient(circle closest-side, white 0, white 53.68%, transparent 53.68%, transparent 61%, white 0), conic-gradient(from 242deg, #4ea65d 0, #4ea65d 66.7%, #f28e2c 0, #f28e2c 88.9%, #e15759 0, #e15759 100%);
   position: relative;
-  width: 400px;
-  height: 267px;
+  width: 446px;
+  height: 301px;
   margin-top: 44px;
+  margin-left: -24px;
 }
 
 .pie-chart h2 {
@@ -1144,6 +1183,13 @@ body {
   height: 0.8em;
   border-radius: 0.2em;
   background: currentColor;
+}
+
+.chart-container {
+  width: 223%;
+  height: 83%;
+  margin: 90px 0px 0px -10px;
+  display: block;
 }
 
 a:link {

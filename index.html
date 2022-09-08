@@ -5,6 +5,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/cdbootstrap/js/cdb.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/cdbootstrap/js/bootstrap.min.js"></script>
+    <script src="https://kit.fontawesome.com/9d1d9a82d2.js" crossorigin="anonymous"></script>
+
     <link rel="stylesheet" href="./style/style.css">
     <title>Dashboard-SasS-(Community)</title>
 </head>
@@ -248,8 +252,12 @@
                             <p class="task">Deals</p>
                      <p class="stw">Show:  <span style="color:rgb(26, 162, 235)">Monthly</span></p>
                          </div> 
-                         <img src="img/line.png" class="line" alt="" />
-    
+                         <div class="card chart-container">
+                          <img src="img/chartLine.png" class="ellipseLine" alt="">
+                          <p class="chartLine">Closed deals</p>
+                          <canvas id="chart"></canvas>
+                        </div>
+                        
                     </div>
                   <div class="row recD2">
                     <div class="col-6">
@@ -257,16 +265,14 @@
                             <p class="task">Tasks</p>
                      <p class="stw">Show:  <span style="color:rgb(26, 162, 235)">This month</span></p>
                          </div>  
-<!--                          <img src="img/pie.png" class="line" alt="" />
- -->                   
- <figure class="pie-chart">
-	<figcaption>
-    <p class="pie">60 %</p>
-   <img src="img/orangeChart.png" class="greenChart" alt="">Active<br>
-		<img src="img/greenChart.png" class="greenChart" alt="">Completed<br>
-		<img src="img/redChart.png" class="greenChart" alt="">Ended
-	</figcaption>
-</figure>
+                          <figure class="pie-chart">
+                            <figcaption>
+                              <p class="pie">60 %</p>
+                            <img src="img/orangeChart.png" class="greenChart" alt="">Active<br>
+                              <img src="img/greenChart.png" class="greenChart" alt="">Completed<br>
+                              <img src="img/redChart.png" class="greenChart" alt="">Ended
+                            </figcaption>
+                          </figure>
 
                            </div>
             </div>
@@ -276,4 +282,31 @@
         </div>
       </div>
 </body>
+            <script
+            src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.2/Chart.js">
+            </script>
+            <script>
+                  const ctx = document.getElementById("chart").getContext('2d');
+                  const myChart = new Chart(ctx, {
+                    type: 'line',
+                    data: {
+                      labels: ["1 Dec", "8 Dec", "16 Dec", "31 Dec"],
+                      datasets: [{
+                        label: 'Closed deals',
+                        backgroundColor: 'rgba(161, 198, 247, 1)',
+                        borderColor: 'rgb(47, 128, 237)',
+                        data: [0,50, 60, 80 ,100,120, 150, 170,200],
+                      }]
+                    },
+                    options: {
+                      scales: {
+                        yAxes: [{
+                          ticks: {
+                            beginAtZero: true,
+                          }
+                        }]
+                      }
+                    },
+                  });
+            </script>
 </html>

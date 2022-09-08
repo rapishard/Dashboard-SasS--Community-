@@ -30,9 +30,10 @@
             #e15759 100%
     );
     position: relative;
-    width: 400px;
-    height: 267px;
+    width: 446px;
+    height: 301px;
     margin-top: 44px;
+    margin-left: -24px;
 }
 .pie-chart h2 {
     position: absolute;
@@ -62,3 +63,12 @@
     border-radius: 0.2em;
     background: currentColor;
 }
+
+.chart-container {
+    width: 223%;
+    height: 83%;
+    margin: 90px 0px 0px -10px;
+    display: block;
+    
+}
+  
