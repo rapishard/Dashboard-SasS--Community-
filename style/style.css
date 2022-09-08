@@ -622,6 +622,23 @@ a {
   color: #334D6E;
 }
 
+.pie {
+  /* 60% */
+  position: absolute;
+  left: -300%;
+  right: 0%;
+  top: -377%;
+  bottom: 0%;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 53px;
+  line-height: 84px;
+  text-align: center;
+  /* green */
+  color: #2ED47A;
+}
+
 /* When the screen is less than 600px wide, stack the links and the search field vertically instead of horizontally */
 @media screen and (max-width: 600px) {
   .topnav a, .topnav input[type=text] {
@@ -1065,6 +1082,18 @@ body {
   border: 2px solid #109CF1;
 }
 
+.greenChart {
+  box-sizing: border-box;
+  /* position: absolute;
+   */
+  width: 8px;
+  height: 8px;
+  left: 320px;
+  top: 196px;
+  margin-right: 5px;
+  /* green */
+}
+
 .line {
   width: 430px;
   margin-top: 40px;
@@ -1075,6 +1104,46 @@ body {
   width: 430px;
   margin-top: 150px;
   max-width: 214%;
+}
+
+.pie-chart {
+  background: radial-gradient(circle closest-side, white 0, white 53.68%, transparent 53.68%, transparent 61%, white 0), conic-gradient(from 242deg, #4ea65d 0, #4ea65d 66.7%, #f28e2c 0, #f28e2c 88.9%, #e15759 0, #e15759 100%);
+  position: relative;
+  width: 400px;
+  height: 267px;
+  margin-top: 44px;
+}
+
+.pie-chart h2 {
+  position: absolute;
+  margin: 1rem;
+}
+
+.pie-chart cite {
+  position: absolute;
+  bottom: 0;
+  font-size: 80%;
+  padding: 1rem;
+  color: gray;
+}
+
+.pie-chart figcaption {
+  position: absolute;
+  bottom: 11em;
+  right: 3em;
+  font-size: smaller;
+  text-align: right;
+}
+
+.pie-chart span:after {
+  display: inline-block;
+  content: "";
+  width: 0.8em;
+  height: 0.8em;
+  margin-left: 0.4em;
+  height: 0.8em;
+  border-radius: 0.2em;
+  background: currentColor;
 }
 
 a:link {
