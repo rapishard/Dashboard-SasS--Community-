@@ -1238,6 +1238,21 @@ a:active {
     padding: 0px 25px;
     background-color: #F7685B;
   }
+  .buttonContact {
+    margin: 20px 0px 0px 600px;
+  }
+  .email {
+    margin-left: 168px;
+  }
+  .level {
+    margin-left: 157px;
+  }
+  .quote {
+    margin-left: 125px;
+  }
+  .time {
+    margin-left: 122px;
+  }
   .sign {
     /* George Fields */
     position: absolute;
