@@ -45,3 +45,20 @@
   
       
     }
+
+    .friend-list li a img {
+      float: left;
+      width: 20px;
+      height: 20px;
+      margin-right: 10px;
+      border-radius:90%; 
+    }
+
+    .img-circle {
+      border-radius:90%; 
+
+    }
+
+    .imgCircleMess{
+      margin-top: -30px;
+    }

@@ -146,6 +146,25 @@ display: none;
   margin-left: 680px;
   margin-top:80px;
   }
+
+  .chat_area li .chat-img1 img {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    left: 270.33px;
+        top: 115px;
+    background: url(image);
+}
+
+.imgCircleMess {
+  margin-top: -11px;
+  margin-left: -13px;
+}
+
+.chat_area .chat-body1 {
+  margin-left: -11px;
+  margin-top: 3px;
+}
 }
 
 @media all and (min-width: 1200px) and (max-width: 2560px) {

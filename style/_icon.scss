@@ -97,3 +97,44 @@ left: 21px;
 /* Accent blue */
 
 }
+
+.bluCircleChat{
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    margin-left: 0px;
+    max-width: 200%;
+left: -50%;
+right: 0%;
+top: 20%;
+bottom: 0%;
+
+background: #109CF1;
+border-radius: 4px;
+}
+
+.sendRead{
+    position: absolute;
+width: 16px;
+height: 16px;
+right: -15px;
+    top: 4px;
+max-width: 200%;
+
+}
+
+.grey{
+    background: #C2CFE0;
+}
+
+.greeChat{
+    position: absolute;
+width: 6px;
+height: 6px;
+left: 182px;
+top: 25px;
+
+/* green */
+
+background: #2ED47A;
+}
