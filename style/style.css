@@ -1207,7 +1207,7 @@ body {
 }
 
 .buttonContact {
-  margin: 20px 0px 0px 1000px;
+  margin: 20px 0px 0px 1050px;
   padding: 0px 10px;
   background: #109CF1;
   /* accent button shadow */
@@ -1591,7 +1591,7 @@ a:active {
     color: #90A0B7;
   }
   .buttonContact {
-    margin: 20px 0px 0px 1000px;
+    margin: 20px 0px 0px 627px;
     padding: 0px 10px;
     background: #109CF1;
     /* accent button shadow */
