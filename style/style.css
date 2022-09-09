@@ -1491,6 +1491,9 @@ a:active {
   }
   .time {
     margin-left: 122px;
+    left: 0%;
+    right: 6%;
+    top: -44%;
   }
   .sign {
     /* George Fields */
@@ -1554,6 +1557,42 @@ a:active {
   .chat_area .chat-body1 {
     margin-left: -11px;
     margin-top: 3px;
+  }
+  .chatMessage {
+    font-size: 10px;
+    line-height: 17px;
+    letter-spacing: 0.01em;
+    /* dark_blue */
+    color: #334D6E;
+  }
+  .friend-name {
+    font-size: 10px;
+    line-height: 11px;
+    /* identical to box height */
+    /* Accent blue */
+    color: #109CF1;
+  }
+  .last-message {
+    font-size: 8px;
+    line-height: 15px;
+    /* identical to box height */
+    letter-spacing: 0.01em;
+    /* black */
+    color: #192A3E;
+    margin-left: 29px;
+  }
+  .time {
+    margin-left: 106px;
+    font-size: 7px;
+    line-height: 9px;
+    text-align: right;
+    letter-spacing: 0.01em;
+    /* gray */
+    color: #90A0B7;
+  }
+  .friend-list li a .chat-alert {
+    right: 16px;
+    top: 20px;
   }
 }
 #custom-search-input {
