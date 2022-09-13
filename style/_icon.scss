@@ -50,12 +50,6 @@ background: #C2CFE0;
     left: 16px;}
 
 .bluCircle{
-    /* position: absolute;
-    width: 24px;
-    height: 24px;
-    left: calc(50% - 24px/2 - 371.5px);
-    top: 170px;
-    background: #109CF1; */
     width: 25px;
     height: 25px;
     margin-left: 0px;
@@ -75,26 +69,22 @@ background: #C2CFE0;
 
 .greenChart{
     box-sizing: border-box;
+    width: 8px;
+    height: 8px;
+    left: 320px;
+    top: 196px;
+    margin-right: 5px;
 
-/* position: absolute;
- */width: 8px;
-height: 8px;
-left: 320px;
-top: 196px;
-margin-right: 5px;
-
-/* green */
 
 }
 
 .ellipseLine{
     position: absolute;
-width: 8px;
-height: 8px;
-left: 21px;
+    width: 8px;
+    height: 8px;
+    left: 21px;
     top: -27px;
 
-/* Accent blue */
 
 }
 
@@ -104,10 +94,10 @@ left: 21px;
     height: 10px;
     margin-left: 0px;
     max-width: 200%;
-left: -50%;
-right: 0%;
-top: 20%;
-bottom: 0%;
+    left: -50%;
+    right: 0%;
+    top: 20%;
+    bottom: 0%;
 
 background: #109CF1;
 border-radius: 4px;
@@ -115,11 +105,11 @@ border-radius: 4px;
 
 .sendRead{
     position: absolute;
-width: 16px;
-height: 16px;
-right: -15px;
+    width: 16px;
+    height: 16px;
+    right: -15px;
     top: 4px;
-max-width: 200%;
+    max-width: 200%;
 
 }
 
@@ -129,12 +119,12 @@ max-width: 200%;
 
 .greeChat{
     position: absolute;
-width: 6px;
-height: 6px;
-left: 182px;
-top: 25px;
+    width: 6px;
+    height: 6px;
+    left: 182px;
+    top: 25px;
 
-/* green */
+    /* green */
 
-background: #2ED47A;
+    background: #2ED47A;
 }

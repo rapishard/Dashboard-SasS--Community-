@@ -1,39 +1,33 @@
 .sidebar{
-    /* side_nav_bg */
+  position: absolute;
+  width: 256px;
+  height: 803px;
+  left: 0px;
+  top: 0px;
+  bottom: 0px;
 
+  /* white */
 
-position: absolute;
-width: 256px;
-height: 803px;
-left: 0px;
-top: 0px;
-bottom: 0px;
+  background: #FFFFFF;
+  /* sidebar shadow */
 
-/* white */
-
-background: #FFFFFF;
-/* sidebar shadow */
-
-box-shadow: 6px 0px 18px rgba(0, 0, 0, 0.06);
+  box-shadow: 6px 0px 18px rgba(0, 0, 0, 0.06);
 }
 
 .sidebarChat{
-  /* side_nav_bg */
+  position: absolute;
+  width: 256px;
+  height: 503px;
+  left: 0px;
+  top: 0px;
+  bottom: 0px;
 
+  /* white */
 
-position: absolute;
-width: 256px;
-height: 503px;
-left: 0px;
-top: 0px;
-bottom: 0px;
+  background: #FFFFFF;
+  /* sidebar shadow */
 
-/* white */
-
-background: #FFFFFF;
-/* sidebar shadow */
-
-box-shadow: 6px 0px 18px rgba(0, 0, 0, 0.06);
+  box-shadow: 6px 0px 18px rgba(0, 0, 0, 0.06);
 }
 
 
@@ -54,7 +48,7 @@ body {
   
   .friend-list {
     list-style: none;
-  margin-left: -40px;
+    margin-left: -40px;
   }
   
   .friend-list li {
@@ -118,8 +112,8 @@ body {
   }
   
   .chat {
-      list-style: none;
-      margin: 0;
+    list-style: none;
+    margin: 0;
   }
   
   .chat-message{
@@ -212,12 +206,6 @@ body {
   }
   
   .chat-box {
-  /*
-    position: fixed;
-    bottom: 0;
-    left: 444px;
-    right: 0;
-  */
     padding: 15px;
     border-top: 1px solid #eee;
     transition: all .5s ease;

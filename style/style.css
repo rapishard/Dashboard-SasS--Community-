@@ -1,7 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Poppins:weight@100;200;300;400;500;600;700;800&display=swap");
 .sidebar {
-  /* side_nav_bg */
   position: absolute;
   width: 256px;
   height: 803px;
@@ -15,7 +14,6 @@
 }
 
 .sidebarChat {
-  /* side_nav_bg */
   position: absolute;
   width: 256px;
   height: 503px;
@@ -201,12 +199,6 @@ img {
 }
 
 .chat-box {
-  /*
-    position: fixed;
-    bottom: 0;
-    left: 444px;
-    right: 0;
-  */
   padding: 15px;
   border-top: 1px solid #eee;
   transition: all 0.5s ease;
@@ -247,7 +239,6 @@ a:hover, a:active, a:focus {
 }
 
 .sierra {
-  /* Sierra Ferguson */
   position: absolute;
   left: 0%;
   right: 0%;
@@ -260,13 +251,10 @@ a:hover, a:active, a:focus {
   font-weight: 500;
   font-size: 14px;
   line-height: 21px;
-  /* identical to box height */
-  /* black */
   color: #192A3E;
 }
 
 .email {
-  /* s.ferguson@gmail.com */
   position: absolute;
   left: 0%;
   right: 0%;
@@ -317,7 +305,6 @@ a:hover, a:active, a:focus {
   line-height: 20px;
   /* identical to box height */
   letter-spacing: 0.01em;
-  /* Accent blue */
 }
 
 a {
@@ -712,7 +699,6 @@ a {
   font-weight: 500;
   font-size: 14px;
   line-height: 21px;
-  /* identical to box height */
   /* Accent blue */
   color: #109CF1;
 }
@@ -771,8 +757,6 @@ a {
 }
 
 .nameChatArea {
-  /*     position: absolute;
-   */
   left: 0%;
   right: 0%;
   top: 0%;
@@ -789,8 +773,6 @@ a {
 }
 
 .nameMessage {
-  /*     position: absolute;
-   */
   left: 10%;
   right: 0%;
   top: -74%;
@@ -809,8 +791,6 @@ a {
 }
 
 .timeMessChat {
-  /*     position: absolute;
-   */
   left: 0%;
   right: 0%;
   top: 0%;
@@ -827,8 +807,6 @@ a {
 }
 
 .chatMessage {
-  /*     position: absolute;
-   */
   left: 0%;
   right: 0%;
   top: 0%;
@@ -1210,7 +1188,6 @@ body {
   margin: 20px 0px 0px 1050px;
   padding: 0px 10px;
   background: #109CF1;
-  /* accent button shadow */
   box-shadow: 0px 4px 10px rgba(16, 156, 241, 0.24);
   border-radius: 4px;
 }
@@ -1270,12 +1247,6 @@ body {
 }
 
 .bluCircle {
-  /* position: absolute;
-  width: 24px;
-  height: 24px;
-  left: calc(50% - 24px/2 - 371.5px);
-  top: 170px;
-  background: #109CF1; */
   width: 25px;
   height: 25px;
   margin-left: 0px;
@@ -1295,14 +1266,11 @@ body {
 
 .greenChart {
   box-sizing: border-box;
-  /* position: absolute;
-   */
   width: 8px;
   height: 8px;
   left: 320px;
   top: 196px;
   margin-right: 5px;
-  /* green */
 }
 
 .ellipseLine {
@@ -1311,7 +1279,6 @@ body {
   height: 8px;
   left: 21px;
   top: -27px;
-  /* Accent blue */
 }
 
 .bluCircleChat {
@@ -1435,7 +1402,6 @@ a:active {
     margin-left: 63px;
   }
   .sidebar {
-    /* side_nav_bg */
     position: absolute;
     width: 62px;
   }
@@ -1496,7 +1462,6 @@ a:active {
     top: -44%;
   }
   .sign {
-    /* George Fields */
     position: absolute;
     left: 18%;
   }
@@ -1562,22 +1527,17 @@ a:active {
     font-size: 10px;
     line-height: 17px;
     letter-spacing: 0.01em;
-    /* dark_blue */
     color: #334D6E;
   }
   .friend-name {
     font-size: 10px;
     line-height: 11px;
-    /* identical to box height */
-    /* Accent blue */
     color: #109CF1;
   }
   .last-message {
     font-size: 8px;
     line-height: 15px;
-    /* identical to box height */
     letter-spacing: 0.01em;
-    /* black */
     color: #192A3E;
     margin-left: 29px;
   }
@@ -1587,14 +1547,12 @@ a:active {
     line-height: 9px;
     text-align: right;
     letter-spacing: 0.01em;
-    /* gray */
     color: #90A0B7;
   }
   .buttonContact {
     margin: 20px 0px 0px 627px;
     padding: 0px 10px;
     background: #109CF1;
-    /* accent button shadow */
     box-shadow: 0px 4px 10px rgba(16, 156, 241, 0.24);
     border-radius: 4px;
   }

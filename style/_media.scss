@@ -8,11 +8,8 @@
   }
 
   .sidebar{
-    /* side_nav_bg */
-
-
-        position: absolute;
-        width: 62px;
+    position: absolute;
+    width: 62px;
         
 }
 .circolare{
@@ -32,9 +29,9 @@ display: none;
 
 .blueCircle{
   width: 25px;
-    height: 25px;
-    margin-left: -4px;
-    max-width: 200%;
+  height: 25px;
+  margin-left: -4px;
+  max-width: 200%;
 }
 
 
@@ -83,17 +80,14 @@ display: none;
     .time{
       margin-left: 122px;
       left: 0%;
-    right: 6%;
-    top: -44%;
+      right: 6%;
+      top: -44%;
 
     }
 
     .sign{
-      /* George Fields */
-  
-  
-  position: absolute;
-  left: 18%;
+      position: absolute;
+      left: 18%;
   
   }
 
@@ -155,7 +149,7 @@ display: none;
     width: 20px;
     height: 20px;
     left: 270.33px;
-        top: 115px;
+    top: 115px;
     background: url(image);
 }
 
@@ -174,9 +168,6 @@ display: none;
   font-size: 10px;
   line-height: 17px;
   letter-spacing: 0.01em;
-  
-  /* dark_blue */
-  
   color: #334D6E;
    }
 
@@ -184,11 +175,6 @@ display: none;
  .friend-name{
   font-size: 10px;
   line-height: 11px;
-  /* identical to box height */
-  
-  
-  /* Accent blue */
-  
   color: #109CF1;
   
    }
@@ -197,12 +183,7 @@ display: none;
    
     font-size: 8px;
     line-height: 15px;
-    /* identical to box height */
-    
     letter-spacing: 0.01em;
-    
-    /* black */
-    
     color: #192A3E;
     margin-left:29px;
      }
@@ -214,9 +195,6 @@ display: none;
   line-height: 9px;
   text-align: right;
   letter-spacing: 0.01em;
-  
-  /* gray */
-  
   color: #90A0B7;
   
 }
@@ -225,10 +203,8 @@ display: none;
   margin: 20px 0px 0px 627px;
   padding: 0px 10px;
   background: #109CF1;
-/* accent button shadow */
-
-box-shadow: 0px 4px 10px rgba(16, 156, 241, 0.24);
-border-radius: 4px;
+  box-shadow: 0px 4px 10px rgba(16, 156, 241, 0.24);
+  border-radius: 4px;
 }
 
 .friend-list li a .chat-alert{

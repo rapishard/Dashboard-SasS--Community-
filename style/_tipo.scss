@@ -8,119 +8,105 @@
 
 .sass{
     position: absolute;
-width: 99px;
-height: 26px;
-left: 24px;
-top: 7px;
+    width: 99px;
+    height: 26px;
+    left: 24px;
+    top: 7px;
 
-font-family: 'Open Sans';
-font-style: normal;
-font-weight: 600;
-font-size: 18px;
-line-height: 25px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 25px;
 
-/* Accent blue */
+    /* Accent blue */
 
-color: #109CF1;
+    color: #109CF1;
 }
 
 .sierra{
-    /* Sierra Ferguson */
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+    margin-top: 50px;
+    margin-left:90px;
 
-
-position: absolute;
-left: 0%;
-right: 0%;
-top: 0%;
-bottom: 0%;
-margin-top: 50px;
-margin-left:90px;
-
-font-family: 'Poppins';
-font-style: normal;
-font-weight: 500;
-font-size: 14px;
-line-height: 21px;
-/* identical to box height */
-
-
-/* black */
-
-color: #192A3E;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+    
+    color: #192A3E;
 
 }
 
 .email{
-    /* s.ferguson@gmail.com */
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+    margin-left:90px;
+    margin-top: 70px;
 
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 11px;
+    line-height: 16px;
+    /* identical to box height */
 
-position: absolute;
-left: 0%;
-right: 0%;
-top: 0%;
-bottom: 0%;
-margin-left:90px;
-margin-top: 70px;
+    letter-spacing: 0.01em;
 
-font-family: 'Poppins';
-font-style: normal;
-font-weight: 500;
-font-size: 11px;
-line-height: 16px;
-/* identical to box height */
+    /* gray */
 
-letter-spacing: 0.01em;
-
-/* gray */
-
-color: #90A0B7;
+    color: #90A0B7;
 }
 
 .list{
     /* Dashboard */
 
 
-position: absolute;
-left: 0%;
-right: 0%;
-top: 0%;
-bottom: 0%;
-margin-left:-5px;
-margin-top:120px;
-list-style-type: none;
-word-spacing: -2px;
-line-height: 80%;
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+    margin-left:-5px;
+    margin-top:120px;
+    list-style-type: none;
+    word-spacing: -2px;
+    line-height: 80%;
 
-font-family: 'Poppins';
-font-style: normal;
-font-weight: 500;
-font-size: 13px;
-line-height: 20px;
-/* identical to box height */
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 20px;
+    /* identical to box height */
 
-letter-spacing: 0.01em;
+    letter-spacing: 0.01em;
 
 
 }
 
 .list2{
     /* Dashboard */
+    margin-left:-5px;
+    margin-top:400px;
 
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 20px;
+    /* identical to box height */
 
+    letter-spacing: 0.01em;
 
-margin-left:-5px;
-margin-top:400px;
-
-font-family: 'Poppins';
-font-style: normal;
-font-weight: 500;
-font-size: 13px;
-line-height: 20px;
-/* identical to box height */
-
-letter-spacing: 0.01em;
-
-/* Accent blue */
 
 }
 
@@ -131,127 +117,118 @@ a{
 
 .status{
     /* Status */
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
 
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 20px;
+    /* identical to box height */
 
-position: absolute;
-left: 0%;
-right: 0%;
-top: 0%;
-bottom: 0%;
+    text-align: center;
+    letter-spacing: 0.01em;
 
-font-family: 'Poppins';
-font-style: normal;
-font-weight: 500;
-font-size: 13px;
-line-height: 20px;
-/* identical to box height */
+    /* dark_blue */
 
-text-align: center;
-letter-spacing: 0.01em;
+    color: #334D6E;
 
-/* dark_blue */
-
-color: #334D6E;
-
-opacity: 0.5;
+    opacity: 0.5;
 }
 
 .cardText{
     /* Send benefit review by Sunday */
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 5%;
+    bottom: 0%;
+    margin: 10px 0px 0px 20px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 22px;
+    /* identical to box height */
 
+    letter-spacing: 0.01em;
 
-position: absolute;
-left: 0%;
-right: 0%;
-top: 5%;
-bottom: 0%;
-margin: 10px 0px 0px 20px;
-font-family: 'Poppins';
-font-style: normal;
-font-weight: 500;
-font-size: 15px;
-line-height: 22px;
-/* identical to box height */
+    /* table_black */
 
-letter-spacing: 0.01em;
-
-/* table_black */
-
-color: #323C47;
+    color: #323C47;
 }
 
 .dueDate{
     /* Due date: */
+    position: absolute;
+    width: 64px;
+    height: 20px;
+    left: 20px;
+    top: 40px;
 
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 20px;
+    /* identical to box height */
 
-position: absolute;
-width: 64px;
-height: 20px;
-left: 20px;
-top: 40px;
+    letter-spacing: 0.01em;
 
-font-family: 'Poppins';
-font-style: normal;
-font-weight: 400;
-font-size: 13px;
-line-height: 20px;
-/* identical to box height */
+    /* dark_gray text */
 
-letter-spacing: 0.01em;
+    color: #4C5862;
 
-/* dark_gray text */
-
-color: #4C5862;
-
-opacity: 0.5;
+    opacity: 0.5;
 }
 
 .dateCard{
     /* December 23, 2018 */
+    position: absolute;
+    width: 222px;
+    height: 20px;
+    left: 80px;
+    top: 40px;
 
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 20px;
+    /* identical to box height */
 
-position: absolute;
-width: 222px;
-height: 20px;
-left: 80px;
-top: 40px;
+    letter-spacing: 0.01em;
 
-font-family: 'Poppins';
-font-style: normal;
-font-weight: 400;
-font-size: 13px;
-line-height: 20px;
-/* identical to box height */
+    /* dark_gray text */
 
-letter-spacing: 0.01em;
-
-/* dark_gray text */
-
-color: #4C5862;
+    color: #4C5862;
 }
 
 .stw{
     /* Show: This week */
+    position: absolute;
+    width: 97px;
+    height: 18px;
+    right: 37px;
+    top: 17px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    /* identical to box height */
 
+    letter-spacing: 0.01em;
 
-position: absolute;
-width: 97px;
-height: 18px;
-right: 37px;
-top: 17px;
-font-family: 'Poppins';
-font-style: normal;
-font-weight: 400;
-font-size: 12px;
-line-height: 18px;
-/* identical to box height */
+    /* filter_gray */
 
-letter-spacing: 0.01em;
-
-/* filter_gray */
-
-color: #6A707E;
-margin-left: 288px;}
+    color: #6A707E;
+    margin-left: 288px;
+}
 
 .stwContact{
     position: absolute;
@@ -272,53 +249,50 @@ margin-left: 288px;}
     /* filter_gray */
     
     color: #6A707E;
-margin-left: 8px;
-margin-top: 10px;
+    margin-left: 8px;
+    margin-top: 10px;
 }
 
 .greyCard{
+    position: absolute;
+    height: 18px;
+    right: 37px;
+    top: 17px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    /* identical to box height */
 
-position: absolute;
-height: 18px;
-right: 37px;
-top: 17px;
-font-family: 'Poppins';
-font-style: normal;
-font-weight: 400;
-font-size: 12px;
-line-height: 18px;
-/* identical to box height */
+    letter-spacing: 0.01em;
 
-letter-spacing: 0.01em;
+    /* filter_gray */
 
-/* filter_gray */
-
-color: #6A707E;
+    color: #6A707E;
     margin-left: 388px;
 }
 
 .sign{
     /* George Fields */
+    position: absolute;
+    left: 12%;
+    right: 0%;
+    top: 70%;
+    bottom: 0%;
 
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 20px;
+    /* identical to box height */
 
-position: absolute;
-left: 12%;
-right: 0%;
-top: 70%;
-bottom: 0%;
+    letter-spacing: 0.01em;
 
-font-family: 'Poppins';
-font-style: normal;
-font-weight: 400;
-font-size: 13px;
-line-height: 20px;
-/* identical to box height */
+    /* table_gray */
 
-letter-spacing: 0.01em;
-
-/* table_gray */
-
-color: #707683;
+    color: #707683;
 }
 
 .form-check .form-check-input {
@@ -349,48 +323,46 @@ color: #323C47;
     left: 6%;
     right: 0%;
     top: 26%;
-bottom: 0%;
+    bottom: 0%;
 
-font-family: 'Poppins';
-font-style: normal;
-font-weight: 500;
-font-size: 13px;
-line-height: 20px;
-/* identical to box height */
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 20px;
+    /* identical to box height */
 
-letter-spacing: 0.01em;
+    letter-spacing: 0.01em;
 
-/* dark_blue */
+    /* dark_blue */
 
-color: #334D6E;
+    color: #334D6E;
 
-opacity: 0.5;
+    opacity: 0.5;
 }
 
 
 .email{
     /* lindsey.stroud@gmail.com */
+    position: absolute;
+    left: 4%;
+        right: 0%;
+        top: -46%;
+    bottom: 0%;
+    margin-left: 257px;
+        margin-top: 36px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 20px;
+    /* identical to box height */
 
+    letter-spacing: 0.01em;
 
-position: absolute;
-left: 4%;
-    right: 0%;
-    top: -46%;
-bottom: 0%;
-margin-left: 257px;
-    margin-top: 36px;
-font-family: 'Poppins';
-font-style: normal;
-font-weight: 400;
-font-size: 13px;
-line-height: 20px;
-/* identical to box height */
+    /* table_gray */
 
-letter-spacing: 0.01em;
-
-/* table_gray */
-
-color: #707683;
+    color: #707683;
 }
 
 
@@ -422,73 +394,71 @@ color: #707683;
 
 .show{
     /* Show more */
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    top: 470px;
+    bottom: 0px;
 
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 20px;
+    /* identical to box height */
 
-position: absolute;
-left: 0px;
-right: 0px;
-top: 470px;
-bottom: 0px;
+    text-align: center;
+    letter-spacing: 0.01em;
 
-font-family: 'Poppins';
-font-style: normal;
-font-weight: 600;
-font-size: 13px;
-line-height: 20px;
-/* identical to box height */
+    /* Accent blue */
 
-text-align: center;
-letter-spacing: 0.01em;
-
-/* Accent blue */
-
-color: #109CF1;
+    color: #109CF1;
 }
+
  .numberDay{
     position: absolute;
-left: 0%;
-right: 0%;
-top: 50%;
-bottom: 0%;
+    left: 0%;
+    right: 0%;
+    top: 50%;
+    bottom: 0%;
 
-font-family: 'Poppins';
-font-style: normal;
-font-weight: 400;
-font-size: 12px;
-line-height: 18px;
-/* identical to box height */
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    /* identical to box height */
 
-text-align: center;
-letter-spacing: 0.01em;
+    text-align: center;
+    letter-spacing: 0.01em;
 
-/* profile_gray */
+    /* profile_gray */
 
-color: #4C5862;
+    color: #4C5862;
  }
 
  .nameDay{
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 10%;
+    bottom: 0%;
 
-position: absolute;
-left: 0%;
-right: 0%;
-top: 10%;
-bottom: 0%;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 20px;
+    /* identical to box height */
 
-font-family: 'Poppins';
-font-style: normal;
-font-weight: 500;
-font-size: 13px;
-line-height: 20px;
-/* identical to box height */
+    text-align: center;
+    letter-spacing: 0.01em;
 
-text-align: center;
-letter-spacing: 0.01em;
+    /* dark_blue */
 
-/* dark_blue */
+    color: #334D6E;
 
-color: #334D6E;
-
-opacity: 0.5;
+    opacity: 0.5;
  }
 
  .span{
@@ -506,28 +476,26 @@ opacity: 0.5;
     left: 6%;
     right: 0%;
     top: 27%;
-bottom: 0%;
+    bottom: 0%;
 
-font-family: 'Poppins';
-font-style: normal;
-font-weight: 500;
-font-size: 13px;
-line-height: 20px;
-/* identical to box height */
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 20px;
+    /* identical to box height */
 
-letter-spacing: 0.01em;
+    letter-spacing: 0.01em;
 
-/* dark_blue */
+    /* dark_blue */
 
-color: #334D6E;
- }
+    color: #334D6E;
+    }
 
  .pie{
     /* 60% */
-
-
-position: absolute;
-left: -335%;
+    position: absolute;
+    left: -335%;
     right: 0%;
     top: -418%;
     bottom: 0%;
@@ -535,32 +503,32 @@ left: -335%;
     font-style: normal;
     font-weight: 500;
     font-size: 53px;
-line-height: 84px;
-text-align: center;
+    line-height: 84px;
+    text-align: center;
 
-/* green */
+    /* green */
 
-color: #2ED47A;
+    color: #2ED47A;
 
  }
 
  .active{
     position: absolute;
-left: 0%;
-right: 0%;
-top: 0%;
-bottom: 0%;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
 
-font-family: 'Poppins';
-font-style: normal;
-font-weight: 400;
-font-size: 10px;
-line-height: 15px;
-letter-spacing: 0.01em;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 15px;
+    letter-spacing: 0.01em;
 
-/* black */
+    /* black */
 
-color: #192A3E;
+    color: #192A3E;
  }
 
  .chartLine{
@@ -580,71 +548,69 @@ color: #192A3E;
     line-height: 15px;
     letter-spacing: 0.01em;
 
-/* black */
+    /* black */
 
-color: #192A3E;
+    color: #192A3E;
  }
 
  .nameChat{
     position: absolute;
-left: 16%;
-right: 0%;
-top: 0%;
-bottom: 4.55%;
+    left: 16%;
+    right: 0%;
+    top: 0%;
+    bottom: 4.55%;
 
-font-family: 'Poppins';
-font-style: normal;
-font-weight: 500;
-font-size: 14px;
-line-height: 21px;
-/* identical to box height */
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+    /* identical to box height */
 
 
-/* Accent blue */
+    /* Accent blue */
 
-color: #109CF1;
+    color: #109CF1;
  }
 
  .friend-name{
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 4.55%;
 
-left: 0%;
-right: 0%;
-top: 0%;
-bottom: 4.55%;
-
-font-family: 'Poppins';
-font-style: normal;
-font-weight: 500;
-font-size: 14px;
-line-height: 21px;
-/* identical to box height */
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
 
 
-/* Accent blue */
+    /* Accent blue */
 
-color: #109CF1;
+    color: #109CF1;
 
  }
 
  .last-message {
-left: 0%;
-right: 0%;
-top: 0%;
-bottom: 0%;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
 
-font-family: 'Poppins';
-font-style: normal;
-font-weight: 400;
-font-size: 12px;
-line-height: 18px;
-/* identical to box height */
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    /* identical to box height */
 
-letter-spacing: 0.01em;
+    letter-spacing: 0.01em;
 
-/* black */
+    /* black */
 
-color: #192A3E;
-margin-left:29px;
+    color: #192A3E;
+    margin-left:29px;
  }
 
  .time{
@@ -673,103 +639,98 @@ margin-left:29px;
     left: 28%;
     right: 0%;
     top: 200%;
-bottom: 0%;
+    bottom: 0%;
 
-font-family: 'Poppins';
-font-style: normal;
-font-weight: 700;
-font-size: 9px;
-line-height: 14px;
-display: flex;
-align-items: center;
-text-align: center;
-letter-spacing: 0.01em;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 9px;
+    line-height: 14px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.01em;
 
-/* white */
+    /* white */
 
-color: #FFFFFF;
+    color: #FFFFFF;
  }
 
  .nameChatArea{
-/*     position: absolute;
- */left: 0%;
-right: 0%;
-top: 0%;
-bottom: 4.17%;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 4.17%;
 
-font-family: 'Poppins';
-font-style: normal;
-font-weight: 500;
-font-size: 15px;
-line-height: 22px;
-/* identical to box height */
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 22px;
+    /* identical to box height */
 
-letter-spacing: 0.01em;
+    letter-spacing: 0.01em;
 
-/* black */
+    /* black */
 
-color: #192A3E;
+    color: #192A3E;
  }
 
  .nameMessage{
-/*     position: absolute;
- */    left: 10%;
+    left: 10%;
     right: 0%;
     top: -74%;
-bottom: 0%;
-margin: -33px 0px 0px 30px;
-font-family: 'Poppins';
-font-style: normal;
-font-weight: 500;
-font-size: 12px;
-line-height: 18px;
-display: flex;
-align-items: center;
-letter-spacing: 0.01em;
+    bottom: 0%;
+    margin: -33px 0px 0px 30px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 18px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.01em;
 
-/* black */
+    /* black */
 
-color: #192A3E;
+    color: #192A3E;
  }
 
 .timeMessChat{
-/*     position: absolute;
- */
     left: 0%;
-right: 0%;
-top: 0%;
-bottom: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
 
-font-family: 'Poppins';
-font-style: normal;
-font-weight: 400;
-font-size: 10px;
-line-height: 15px;
-text-align: right;
-letter-spacing: 0.01em;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 15px;
+    text-align: right;
+    letter-spacing: 0.01em;
 
-/* gray */
+    /* gray */
 
-color: #90A0B7;
+    color: #90A0B7;
 } 
 
  .chatMessage{
-/*     position: absolute;
- */left: 0%;
-right: 0%;
-top: 0%;
-bottom: -33.33%;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: -33.33%;
 
-font-family: 'Poppins';
-font-style: normal;
-font-weight: 400;
-font-size: 13px;
-line-height: 21px;
-letter-spacing: 0.01em;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 21px;
+    letter-spacing: 0.01em;
 
-/* dark_blue */
+    /* dark_blue */
 
-color: #334D6E;
+    color: #334D6E;
  }
 
  
