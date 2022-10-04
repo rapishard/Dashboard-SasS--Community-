@@ -50,7 +50,7 @@ display: none;
 .row>* {
   flex-shrink: 0;
   width: 100%;
-  /* max-width: 100%; */
+  flex-wrap: wrap;
   padding-right: calc(var(--bs-gutter-x) * .5);
   padding-left: calc(var(--bs-gutter-x) * .5);
 }
@@ -69,30 +69,43 @@ display: none;
   }
 
   .buttonContact{
-    margin: 20px 0px 0px 600px;
+    margin: 20px 0px 0px 270px;
+    padding: 0px 10px;
+    background: #109CF1;
+    box-shadow: 0px 4px 10px rgb(16 156 241 / 24%);
+    border-radius: 4px;
   }
 
-  .email{
-    margin-left: 168px;
+  .circleCardContact {
+    width: 24px;
+    left: -10px;
+    top: 12px;
+    left: 7.57%;
+    right: -15.22%;
   }
 
-  .level{
-    margin-left: 157px;
-  }
+  .signContact {
+    position: absolute;
+    left: 13%;
+    right: 0%;
+    top: 30%;
+    bottom: 0%;
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;}
 
-  .quote{
-    margin-left: 125px;
+    .email {
+      position: absolute;
+      left: 4%;
+      right: 0%;
+      top: -46%;
+      bottom: 0%;
+      margin-left: 150px;}
 
-  }
-
-  .time{
-    margin-left: 122px;
-    left: 0%;
-    right: 6%;
-    top: -44%;
-
-  }
-
+    .social, .level, .quote, .time{
+      display:none;
+    }
   .sign{
     position: absolute;
     left: 18%;
@@ -209,13 +222,7 @@ color: #90A0B7;
 
 }
 
-.buttonContact{
-margin: 20px 0px 0px 627px;
-padding: 0px 10px;
-background: #109CF1;
-box-shadow: 0px 4px 10px rgba(16, 156, 241, 0.24);
-border-radius: 4px;
-}
+
 
 .friend-list li a .chat-alert{
 right: 16px;
@@ -224,6 +231,38 @@ top: 20px;
 }
 
 @media all and (min-width: 512px) and (max-width: 1024px) {
+
+  .circleCardContact {
+    width: 24px;
+    left: -10px;
+    top: 12px;
+    left: 7.57%;
+    right: -15.22%;
+  }
+
+  .signContact {
+    position: absolute;
+    left: 13%;
+    right: 0%;
+    top: 30%;
+    bottom: 0%;
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;}
+
+    .email {
+      position: absolute;
+      left: 4%;
+      right: 0%;
+      top: -46%;
+      bottom: 0%;
+      margin-left: 150px;}
+
+    .social, .level, .quote, .time{
+      display:none;
+    }
+
   .containerDashboard{
     flex-wrap: wrap;
       }
@@ -231,6 +270,7 @@ top: 20px;
   .row>* {
     flex-shrink: 0;
     width: 100%;
+    flex-wrap: wrap;
 
     /* max-width: 100%; */
     padding-right: calc(var(--bs-gutter-x) * .5);
@@ -242,7 +282,6 @@ top: 20px;
     flex-shrink: 0;
      width: 100%;
       /* max-width: 100%; */
-      flex-wrap: wrap;
       padding-right: calc(var(--bs-gutter-x) * .5);
       padding-left: calc(var(--bs-gutter-x) * .5);
     }
@@ -266,7 +305,7 @@ top: 20px;
 }
 .circolare {
   width: 34px;
-  left: 3.57%;
+  left: 27.57%;
 }
 
 .sierra, .emailAvatar, .sideList{
@@ -299,7 +338,7 @@ display: none;
   border: 1px solid #ccc;
 }
     .buttonContact{
-      margin: 20px 0px 0px 750px;
+      margin: 20px 0px 0px 600px;
     }
 
     .button{
@@ -312,6 +351,15 @@ display: none;
       padding: 0px 25px;
       background-color: #F7685B;
     }
+
+
+  .buttonContact{
+    margin: 20px 0px 0px 440px;
+    padding: 0px 10px;
+    background: #109CF1;
+    box-shadow: 0px 4px 10px rgb(16 156 241 / 24%);
+    border-radius: 4px;
+  }
 
     
 }
