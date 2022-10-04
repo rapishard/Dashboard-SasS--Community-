@@ -1372,7 +1372,7 @@ body {
 }
 
 .chart-container {
-  width: 223%;
+  width: 204%;
   height: 83%;
   margin: 90px 0px 0px -10px;
   display: block;
@@ -1397,7 +1397,10 @@ a:active {
   color: blue;
 }
 
-@media all and (min-width: 360px) and (max-width: 512px) {
+@media all and (min-width: 320px) and (max-width: 512px) {
+  .containerDashboard {
+    flex-wrap: wrap;
+  }
   .topBar {
     margin-left: 63px;
   }
@@ -1407,7 +1410,7 @@ a:active {
   }
   .circolare {
     width: 34px;
-    left: 24.57%;
+    left: 3.57%;
   }
   .sierra, .emailAvatar, .sideList {
     /* Sierra Ferguson */
@@ -1432,6 +1435,13 @@ a:active {
   }
   .topnav input[type=text] {
     border: 1px solid #ccc;
+  }
+  .row > * {
+    flex-shrink: 0;
+    width: 100%;
+    /* max-width: 100%; */
+    padding-right: calc(var(--bs-gutter-x) * 0.5);
+    padding-left: calc(var(--bs-gutter-x) * 0.5);
   }
   .button {
     margin: 55px 0px 0px 220px;
@@ -1562,10 +1572,21 @@ a:active {
   }
 }
 @media all and (min-width: 512px) and (max-width: 1024px) {
+  .containerDashboard {
+    flex-wrap: wrap;
+  }
+  .row > * {
+    flex-shrink: 0;
+    width: 100%;
+    /* max-width: 100%; */
+    padding-right: calc(var(--bs-gutter-x) * 0.5);
+    padding-left: calc(var(--bs-gutter-x) * 0.5);
+  }
   .row1 {
     flex-shrink: 0;
     width: 100%;
     /* max-width: 100%; */
+    flex-wrap: wrap;
     padding-right: calc(var(--bs-gutter-x) * 0.5);
     padding-left: calc(var(--bs-gutter-x) * 0.5);
   }
@@ -1612,7 +1633,7 @@ a:active {
     border: 1px solid #ccc;
   }
   .buttonContact {
-    margin: 20px 0px 0px 887px;
+    margin: 20px 0px 0px 750px;
   }
   .button {
     margin: 55px 0px 0px 340px;
@@ -1624,27 +1645,20 @@ a:active {
     padding: 0px 25px;
     background-color: #F7685B;
   }
-  .row > * {
-    flex-shrink: 0;
-    width: 100%;
-    /* max-width: 100%; */
-    padding-right: calc(var(--bs-gutter-x) * 0.5);
-    padding-left: calc(var(--bs-gutter-x) * 0.5);
-  }
 }
 @media all and (min-width: 1024px) and (max-width: 1200px) {
   .button {
-    margin: 55px 0px 0px 360px;
+    margin: 55px 0px 0px 350px;
     padding: 0px 10px;
     background-color: #2ED47A;
   }
   .buttonEnded {
-    margin: 50px 0px 0px 360px;
+    margin: 50px 0px 0px 350px;
     padding: 0px 25px;
     background-color: #F7685B;
   }
   .buttonContact {
-    margin: 20px 0px 0px 940px;
+    margin: 20px 0px 0px 890px;
   }
   .form-check {
     display: block;
