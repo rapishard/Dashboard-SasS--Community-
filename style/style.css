@@ -1397,7 +1397,10 @@ a:active {
   color: blue;
 }
 
-@media all and (min-width: 320px) and (max-width: 512px) {
+@media screen and (max-width: 512px) {
+  .col-md-3 {
+    display: none;
+  }
   .containerDashboard {
     flex-wrap: wrap;
   }
@@ -1582,7 +1585,10 @@ a:active {
     top: 20px;
   }
 }
-@media all and (min-width: 512px) and (max-width: 1024px) {
+@media screen and (max-width: 1024px) {
+  .col-md-3 {
+    display: none;
+  }
   .circleCardContact {
     width: 24px;
     left: -10px;
@@ -1609,7 +1615,7 @@ a:active {
     bottom: 0%;
     margin-left: 150px;
   }
-  .social, .level, .quote, .time {
+  .social, .level, .quote {
     display: none;
   }
   .containerDashboard {
