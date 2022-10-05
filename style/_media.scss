@@ -1,7 +1,15 @@
 @media screen and (max-width: 512px) {
   .col-md-3{
-    display: none;
-  }
+/*     display: none;
+ */  }
+
+ .recD1 {
+  position: absolute;
+  width: 445px;
+  height: 344px;
+  left: -622px;
+  top: 814px;
+ }
 
   .containerDashboard{
 flex-wrap: wrap;
@@ -150,27 +158,6 @@ bottom: 12.5%;
   bottom: 12.5%;
 }
 
-
-
-.recD1{
-
-position: absolute;
-width: 445px;
-height: 344px;
-left: -235px;
-top: 0px;
-
-/* white */
-
-background: #FFFFFF;
-/* box shadow */
-
-box-shadow: 0px 6px 18px rgba(0, 0, 0, 0.06);
-border-radius: 4px;
-margin-left: 680px;
-margin-top:80px;
-}
-
 .chat_area li .chat-img1 img {
   position: absolute;
   width: 20px;
@@ -234,10 +221,18 @@ top: 20px;
 }
 }
 
-@media screen and (max-width: 1024px) {
+@media all and (min-width: 512px) and (max-width: 1024px) {
   .col-md-3{
-    display: none;
-  }
+/*     display: none;
+ */  }
+
+ .recD1 {
+  position: absolute;
+  width: 445px;
+  height: 344px;
+  left: -622px;
+  top: 814px;
+}
 
   .circleCardContact {
     width: 24px;
