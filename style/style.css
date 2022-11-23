@@ -8,7 +8,7 @@
   top: 0px;
   bottom: 0px;
   /* white */
-  background: #FFFFFF;
+  background: #7e5858;
   /* sidebar shadow */
   box-shadow: 6px 0px 18px rgba(0, 0, 0, 0.06);
 }
@@ -21,7 +21,7 @@
   top: 0px;
   bottom: 0px;
   /* white */
-  background: #FFFFFF;
+  background: #7e5858;
   /* sidebar shadow */
   box-shadow: 6px 0px 18px rgba(0, 0, 0, 0.06);
 }
@@ -30,13 +30,13 @@ body {
   padding-top: 0;
   font-size: 12px;
   color: #777;
-  background: #f9f9f9;
+  background: #7e5858;
   font-family: "Open Sans", sans-serif;
   margin-top: 20px;
 }
 
 .bg-white {
-  background-color: #fff;
+  background-color: #7e5858;
 }
 
 .friend-list {
@@ -225,7 +225,7 @@ a:hover, a:active, a:focus {
 
 .sass {
   position: absolute;
-  width: 99px;
+  width: 164px;
   height: 26px;
   left: 24px;
   top: 7px;
@@ -533,7 +533,7 @@ a {
   left: 42%;
 }
 
-.quote {
+.number {
   left: 57%;
 }
 
@@ -838,25 +838,6 @@ a {
   background: #FFFFFF;
 }
 
-.rec_l {
-  height: 718px;
-  width: 635px;
-  left: 0px;
-  top: 0px;
-  border-radius: 4px;
-  position: absolute;
-  height: 718px;
-  left: 0px;
-  right: 0px;
-  top: 0px;
-  margin-left: 350px;
-  /* white */
-  background: #FFFFFF;
-  /* box shadow */
-  box-shadow: 0px 6px 18px rgba(0, 0, 0, 0.06);
-  border-radius: 4px;
-}
-
 .height {
   height: 50vh;
 }
@@ -969,91 +950,6 @@ a {
   border: 1px solid #C2CFE0;
 }
 
-.rec1 {
-  position: absolute;
-  height: 718px;
-  left: 0px;
-  right: 0px;
-  top: 0px;
-  /* white */
-  background: #FFFFFF;
-  /* box shadow */
-  box-shadow: 0px 6px 18px rgba(0, 0, 0, 0.06);
-  border-radius: 4px;
-  margin-top: 80px;
-  margin-left: 30px;
-}
-
-.chat1 {
-  position: absolute;
-  left: 0px;
-  right: 0px;
-  top: 0px;
-  bottom: 0px;
-  background: #FFFFFF;
-  box-shadow: 0px 6px 18px rgba(0, 0, 0, 0.06);
-  border-radius: 4px;
-}
-
-.chat2 {
-  margin-left: 370px;
-  position: absolute;
-  height: 718px;
-  left: 0px;
-  right: 0px;
-  top: 0px;
-  /* white */
-  background: #FFFFFF;
-  /* box shadow */
-  box-shadow: 0px 6px 18px rgba(0, 0, 0, 0.06);
-  border-radius: 4px;
-}
-
-.task {
-  /* 8 task completed out of 10 */
-  position: absolute;
-  left: 0%;
-  right: 0%;
-  top: 0%;
-  bottom: 0%;
-  font-family: "Poppins";
-  font-style: normal;
-  font-weight: 500;
-  font-size: 13px;
-  line-height: 20px;
-  /* identical to box height */
-  letter-spacing: 0.01em;
-  /* dark_blue */
-  color: #334D6E;
-  margin: 15px 0px 0px 30px;
-}
-
-.progress {
-  position: absolute;
-  height: 4px;
-  left: 24px;
-  right: 24px;
-  top: 52px;
-  /* divider */
-  background: #EBEFF2;
-  border-radius: 3px;
-}
-
-.recD1 {
-  position: absolute;
-  width: 445px;
-  height: 344px;
-  left: 0px;
-  top: 0px;
-  /* white */
-  background: #FFFFFF;
-  /* box shadow */
-  box-shadow: 0px 6px 18px rgba(0, 0, 0, 0.06);
-  border-radius: 4px;
-  margin-left: 680px;
-  margin-top: 80px;
-}
-
 .page {
   display: flex;
   flex-wrap: wrap;
@@ -1109,93 +1005,12 @@ body {
   margin: 75px 0px 0px 30px;
 }
 
-.recD2 {
-  position: absolute;
-  width: 445px;
-  height: 344px;
-  left: 0px;
-  top: 0px;
-  /* white */
-  background: #FFFFFF;
-  /* box shadow */
-  box-shadow: 0px 6px 18px rgba(0, 0, 0, 0.06);
-  border-radius: 4px;
-  margin-left: 0px;
-  margin-top: 370px;
-}
-
-.rec1Card1 {
-  position: absolute;
-  height: 116px;
-  left: 24px;
-  right: 24px;
-  top: 153px;
-  margin-top: 60px;
-  /* white */
-  background: #FFFFFF;
-  /* card shadow */
-  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.08);
-  border-radius: 4px;
-}
-
-.card {
-  margin-top: 10px;
-}
-
-.cardDay {
-  margin-top: 130px;
-  border-width: 0px;
-}
-
-.card-body {
-  flex: 1 1 auto;
-  padding: 2rem 1rem;
-}
-
-.card-body-contact {
-  flex: 1 1 auto;
-  padding: 2rem 1rem;
-  padding: 10px 10px 10px 10px;
-}
-
-.rec1CardContact {
-  position: absolute;
-  height: 36px;
-  left: 4px;
-  right: 24px;
-  top: 90px;
-  margin-top: -33px;
-  /* white */
-  background: #FFFFFF;
-  /* card shadow */
-  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.08);
-  border-radius: 4px;
-}
-
-.button {
-  margin: 50px 0px 0px 400px;
-  padding: 0px 10px;
-  background-color: #2ED47A;
-}
-
-.buttonEnded {
-  margin: 50px 0px 0px 400px;
-  padding: 0px 25px;
-  background-color: #F7685B;
-}
-
 .buttonContact {
   margin: 20px 0px 0px 1050px;
   padding: 0px 10px;
   background: #109CF1;
   box-shadow: 0px 4px 10px rgba(16, 156, 241, 0.24);
   border-radius: 4px;
-}
-
-.buttonEnded {
-  margin: 50px 0px 0px 400px;
-  padding: 0px 25px;
-  background-color: #F7685B;
 }
 
 .delete {
@@ -1318,66 +1133,6 @@ body {
   background: #2ED47A;
 }
 
-.line {
-  width: 430px;
-  margin-top: 40px;
-  max-width: 214%;
-}
-
-.pie {
-  width: 430px;
-  margin-top: 150px;
-  max-width: 214%;
-}
-
-.pie-chart {
-  background: radial-gradient(circle closest-side, white 0, white 53.68%, transparent 53.68%, transparent 61%, white 0), conic-gradient(from 242deg, #4ea65d 0, #4ea65d 66.7%, #f28e2c 0, #f28e2c 88.9%, #e15759 0, #e15759 100%);
-  position: relative;
-  width: 446px;
-  height: 301px;
-  margin-top: 44px;
-  margin-left: -24px;
-}
-
-.pie-chart h2 {
-  position: absolute;
-  margin: 1rem;
-}
-
-.pie-chart cite {
-  position: absolute;
-  bottom: 0;
-  font-size: 80%;
-  padding: 1rem;
-  color: gray;
-}
-
-.pie-chart figcaption {
-  position: absolute;
-  bottom: 11em;
-  right: 3em;
-  font-size: smaller;
-  text-align: right;
-}
-
-.pie-chart span:after {
-  display: inline-block;
-  content: "";
-  width: 0.8em;
-  height: 0.8em;
-  margin-left: 0.4em;
-  height: 0.8em;
-  border-radius: 0.2em;
-  background: currentColor;
-}
-
-.chart-container {
-  width: 204%;
-  height: 83%;
-  margin: 90px 0px 0px -10px;
-  display: block;
-}
-
 a:link {
   color: rgb(0, 0, 0);
 }
@@ -1397,17 +1152,10 @@ a:active {
   color: blue;
 }
 
-@media screen and (max-width: 512px) {
+@media all and (min-width: 320px) and (max-width: 512px) {
   .col-md-3 {
     /*     display: none;
      */
-  }
-  .recD1 {
-    position: absolute;
-    width: 445px;
-    height: 344px;
-    left: -622px;
-    top: 814px;
   }
   .containerDashboard {
     flex-wrap: wrap;
@@ -1445,7 +1193,7 @@ a:active {
     padding: 10px;
   }
   .topnav input[type=text] {
-    border: 1px solid #ccc;
+    border: 1px solid #7e5858;
   }
   .row > * {
     flex-shrink: 0;
@@ -1453,16 +1201,6 @@ a:active {
     flex-wrap: wrap;
     padding-right: calc(var(--bs-gutter-x) * 0.5);
     padding-left: calc(var(--bs-gutter-x) * 0.5);
-  }
-  .button {
-    margin: 55px 0px 0px 220px;
-    padding: 0px 10px;
-    background-color: #2ED47A;
-  }
-  .buttonEnded {
-    margin: 50px 0px 0px 220px;
-    padding: 0px 25px;
-    background-color: #F7685B;
   }
   .buttonContact {
     margin: 20px 0px 0px 270px;
@@ -1505,34 +1243,6 @@ a:active {
     position: absolute;
     left: 18%;
     top: 63%;
-  }
-  .orange {
-    position: absolute;
-    left: 45.83%;
-    right: 12.49%;
-    top: 65.5%;
-    bottom: 12.5%;
-  }
-  .green {
-    position: absolute;
-    left: 50.83%;
-    right: 12.49%;
-    top: 65.5%;
-    bottom: 12.5%;
-  }
-  .write {
-    position: absolute;
-    left: 55.83%;
-    right: 12.49%;
-    top: 65.5%;
-    bottom: 12.5%;
-  }
-  .delete {
-    position: absolute;
-    left: 60.83%;
-    right: 20.83%;
-    top: 65.5%;
-    bottom: 12.5%;
   }
   .chat_area li .chat-img1 img {
     position: absolute;
@@ -1585,13 +1295,6 @@ a:active {
   .col-md-3 {
     /*     display: none;
      */
-  }
-  .recD1 {
-    position: absolute;
-    width: 445px;
-    height: 344px;
-    left: -622px;
-    top: 814px;
   }
   .circleCardContact {
     width: 24px;
@@ -1691,16 +1394,6 @@ a:active {
     margin: 20px 0px 0px 600px;
     font-size: 10px;
   }
-  .button {
-    margin: 55px 0px 0px 340px;
-    padding: 0px 10px;
-    background-color: #2ED47A;
-  }
-  .buttonEnded {
-    margin: 50px 0px 0px 340px;
-    padding: 0px 25px;
-    background-color: #F7685B;
-  }
   .buttonContact {
     margin: 20px 0px 0px 440px;
     padding: 0px 10px;
@@ -1710,16 +1403,6 @@ a:active {
   }
 }
 @media all and (min-width: 1024px) and (max-width: 1200px) {
-  .button {
-    margin: 55px 0px 0px 350px;
-    padding: 0px 10px;
-    background-color: #2ED47A;
-  }
-  .buttonEnded {
-    margin: 50px 0px 0px 350px;
-    padding: 0px 25px;
-    background-color: #F7685B;
-  }
   .buttonContact {
     margin: 20px 0px 0px 890px;
   }
@@ -1742,7 +1425,7 @@ a:active {
 }
 
 #custom-search-input {
-  background: #e8e6e7 none repeat scroll 0 0;
+  background: #7e5858 none repeat scroll 0 0;
   margin: 0;
   padding: 10px;
 }
@@ -2082,4 +1765,92 @@ button, input, optgroup, select, textarea {
 
 .text-info {
   color: #48b0f7 !important;
+}
+
+.rec1Card1 {
+  position: absolute;
+  height: 116px;
+  left: 24px;
+  right: 24px;
+  top: 153px;
+  margin-top: 60px;
+  /* white */
+  background: #FFFFFF;
+  /* card shadow */
+  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.08);
+  border-radius: 4px;
+}
+
+.card {
+  margin-top: 10px;
+}
+
+.cardDay {
+  margin-top: 130px;
+  border-width: 0px;
+}
+
+.card-body {
+  flex: 1 1 auto;
+  padding: 2rem 1rem;
+}
+
+.card-body-contact {
+  flex: 1 1 auto;
+  padding: 2rem 1rem;
+  padding: 10px 10px 10px 10px;
+}
+
+.rec1CardContact {
+  position: absolute;
+  height: 36px;
+  left: 4px;
+  right: 24px;
+  top: 90px;
+  margin-top: -33px;
+  /* white */
+  background: #FFFFFF;
+  /* card shadow */
+  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.08);
+  border-radius: 4px;
+}
+
+.rec1 {
+  position: absolute;
+  height: 718px;
+  left: 0px;
+  right: 0px;
+  top: 0px;
+  /* white */
+  background: #FFFFFF;
+  /* box shadow */
+  box-shadow: 0px 6px 18px rgba(0, 0, 0, 0.06);
+  border-radius: 4px;
+  margin-top: 80px;
+  margin-left: 30px;
+}
+
+.chat1 {
+  position: absolute;
+  left: 0px;
+  right: 0px;
+  top: 0px;
+  bottom: 0px;
+  background: #FFFFFF;
+  box-shadow: 0px 6px 18px rgba(0, 0, 0, 0.06);
+  border-radius: 4px;
+}
+
+.chat2 {
+  margin-left: 370px;
+  position: absolute;
+  height: 718px;
+  left: 0px;
+  right: 0px;
+  top: 0px;
+  /* white */
+  background: #ac2626;
+  /* box shadow */
+  box-shadow: 0px 6px 18px rgba(0, 0, 0, 0.06);
+  border-radius: 4px;
 }/*# sourceMappingURL=style.css.map */
